@@ -10,13 +10,20 @@ in which the resources were allocated to processes. ​Print the safe sequence i
 <process_id>.
 Write ​ ​a ​ ​C/C++ ​ ​program ​ ​which ​ ​takes ​ ​following ​ ​inputs ​ ​:
 ● N ​ ​R ​ ​Q ​ ​(number ​ ​of ​ ​processes, ​ ​resources, ​ ​queries ​ ​respectively)
+
 ● Process ​ ​ids
+
 ● Respective ​ ​arrival ​ ​times
+
 ● Available ​ ​instances ​ ​of ​ ​resources
+
 ● Maximum ​ ​R ​ ​that ​ ​can ​ ​be ​ ​allocated ​ ​to ​ ​a ​ ​process
+
 ● Resources ​ ​allocated ​ ​to ​ ​processes
+
 ● ‘q’ lines containing q queries. Each query will be a request from process <pid> for given
 resources
+
 E.g: ​ ​Assuming ​ ​there ​ ​are ​ ​3 ​ ​resources ​ ​in ​ ​the ​ ​system
 0 ​ ​1 ​ ​1 ​ ​1 (i.e. ​ ​P0 ​ ​is ​ ​requesting ​ ​1 ​ ​instance ​ ​of ​ ​each ​ ​available ​ ​resource)
 1 ​ ​1 ​ ​0 ​ ​1 (i.e. ​ ​P1 ​ ​is ​ ​requesting ​ ​1 ​ ​instance ​ ​of ​ ​1st ​ ​and ​ ​3rd ​ ​resource)
